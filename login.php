@@ -1,13 +1,14 @@
 <?php session_start() ?>
 <div class="container-fluid">
-	<form action="" id="login-frm">
+	<form action="" id="login-frm" style="background-color:orange;">
+		
 		<div class="form-group">
 			<label for="" class="control-label">Email</label>
-			<input type="email" name="email" required="" class="form-control">
+			<input type="email" name="email" required="" placeholder="Enter your email address" class="form-control">
 		</div>
 		<div class="form-group">
 			<label for="" class="control-label">Password</label>
-			<input type="password" name="password" required="" class="form-control">
+			<input type="password" name="password" required="" placeholder="Enter your password" class="form-control"><br/><br/>
 			<small><a href="javascript:void(0)" class="text-dark" id="new_account">Create New Account</a></small>
 		</div>
 		<button class="button btn btn-dark btn-sm">Login</button>
